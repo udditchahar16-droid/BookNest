@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="booknest-wallet-service" />
+        <module name="booknest-web" />
+        <module name="booknest-auth-service" />
+        <module name="booknest-cart-service" />
+        <module name="booknest-book-service" />
+        <module name="booknest-order-service" />
+        <module name="booknest-wishlist-service" />
+        <module name="booknest-notification-service" />
+        <module name="booknest-eureka-server" />
+        <module name="booknest-review-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="booknest-auth-service" options="-parameters" />
+      <module name="booknest-book-service" options="-parameters" />
+      <module name="booknest-cart-service" options="-parameters" />
+      <module name="booknest-eureka-server" options="-parameters" />
+      <module name="booknest-notification-service" options="-parameters" />
+      <module name="booknest-order-service" options="-parameters" />
+      <module name="booknest-review-service" options="-parameters" />
+      <module name="booknest-wallet-service" options="-parameters" />
+      <module name="booknest-web" options="-parameters" />
+      <module name="booknest-wishlist-service" options="-parameters" />
+    </option>
+  </component>
+</project>
